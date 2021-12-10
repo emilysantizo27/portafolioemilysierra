@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portafolio - Emily Sierra</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Raleway:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<header class="header-area">
+    <!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+		  <a class="navbar-brand" href="index.html">
+			<img src="img/logo emily transparente.png" alt="logo" class="img-fluid"></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav ms-auto">
+			  <li class="nav-item active">
+				<a class="nav-link" href="index.html">Sobre mí</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Servicios</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Mis trabajos</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Contacto</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	</nav>
+</header>
+	
+   <section id="branding" class="section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 text-center">
+			<h2 class="titulo">Branding</h2>
+			 <hr>
+          </div>
+        </div>
+        <div class="row">
+         <div class="col-md-6 col-12 text-center">
+			  <h4>Papelería Interflora</h4>
+            <h5 class="subtitulo">Proyecto de clase de papelería para florería</h5>
+            <img class="img-fluid" src="img/poster-01.png" alt="poster">
+            
+          </div>
+         <div class="col-md-6 col-12 text-center">
+			 <h4>Póster Publicitario</h4>
+            <h6 class="subtitulo">Proyecto de clase de póster publicitario</h6>
+            <img class="img-fluid" src="img/poster-02.png" alt="poster">
+            
+          </div>
+        </div>
+		  <section id="branding-logos" >
+			  <hr>
+			 <h4 >Proyectos Personales</h4>
+			  <h5 class="subtitulo">Proyectos realizados fuera de clases</h5>
+        <div class="row mt-2">
+          <div class="col-md-4 col-6"><img class="img-fluid float-right" src="img/logos-01.png" alt=""> <h5 class="subtitulo">Proyecto personal: Logo Multitrack</h5></div> 
+          <div class="col-md-4 col-6"><img class="img-fluid float-left" src="img/logo munchies_Logo original 1.png" alt=""> <h5 class="subtitulo">Proyecto personal: Logo Munchies</h5></div> 
+          <div class="col-md-4 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="img/logo gloss rosé-02.png" alt=""> <h5 class="subtitulo">Proyecto personal: Logo Gloss Rosé</h5></div>
+        </div>
+		</section>
+        <hr>
+       
+      </div>
+    </section>
+<footer>
+	<div class="container">
+		<p>Emily Sierra Portafolio de Trabajos - Derechos Reservados 2021</p>
+	</div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="js/wow.min.js.gz"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<script>
+	$(function() {
+
+		
+		$('#navbar').onePageNav({
+			currentClass: 'active',
+			scrollSpeed: 1000,
+			easing: 'swing'
+		});
+		
+		$(window).on('scroll', function () {
+			if ($(window).scrollTop() > 48) {
+				$('.header-area').addClass('sticky');
+			} else {
+				$('.header-area').removeClass('sticky');
+			}
+        });
+
+	});
+</script>
+</body>
+
+</html>
+

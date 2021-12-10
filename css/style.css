@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Raleway:ital,wght@0,200;1,200&display=swap');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+	--color-rosado:#E01D70; 
+	--color-rosa:#FFF0F4; 
+	--color-azul:#192D5A;
+	--color-morado:#CBAACB;
+
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+#servicios{
+	background-color:  var(--color-rosa);
+	text-align: center;
+}
+
+
+.subtitulo{
+	font-family: 'Relaway', serif;
+	font-size: 16px;
+	color: #757575;
+	text-align: center;
+	margin-bottom: 40px;
+	font-style: italic;
+}
+.titulo{
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--color-rosa);
+}
+
+#servicios h4{
+	font-size: 18px;
+	
+	color: #222;
+	margin-bottom: 20px;
+}
+
+#servicios p{
+	font-size: 15px;
+}
+
+#servicios i{
+	color:  var(--color-rosado);
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+#mitrabajo{
+	background-color:  #fff;
+	text-align: center;
+}
+.capa-galeria{
+	position: relative;
+	overflow: hidden;
+}
+
+.capa-contenido{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	background-color: var(--color-rosado);
+	color: #fff;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido:hover{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido:hover h5{
+	transform: translateY(0px);
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido h5{
+	transform: translateY(20px);
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido:hover p{
+	transform: translateY(0px);
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido p{
+	transform: translateY(-20px);
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido a{
+	color: #fff;
+}
+.capa-contenido:hover a{
+	color: #fff;
+}
+#contact{
+	background-color: var(--color-azul);
+	color: #fff;
+}
+
+#contact p{
+	font-size: 16px;
+}
+#contact ul{
+	font-size: 17px;
+}
+
+.list-contact i{
+	color: #FFFFFF;
+	padding-right: 20px;
+}
+
+.list-social a{
+	color: var(--color-rosado);
+}
+.list-social a:hover{
+	color: #fff;
+}
+.list-social i{
+	font-size: 20px;
+}
+
+footer{
+	background-color: #000000;
+	color: var(--color-rosa);
+	text-align: center;
+	padding: 15px;
+}
+
+#fotos, #fotos-verticales, #fotos-bebidas{
+	background-image: url("../img/fondo morado-01.png");
+	color: var(--color-rosa);
+	text-align: center;
+}
+
+#branding{
+	background-image: url("../img/fondo morado-01.png");
+	align-content: center;
+}
+#branding .img-fluid{ 
+	align-content: center;
+	text-align: center;
+}
+#branding h4{
+	text-align: center;
+	color: #fff;
+}
+branding h2{ 
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+hr{
+	color: #fff;
+}
+
+#maquetacion{
+	background-image: url("../img/fondo morado-01.png");
+}
+#maquetacion h4{
+	color: var(--color-rosa);
+	text-align:center; 
+}
+#maquetacion h2{
+	padding-top: 40px;
+}

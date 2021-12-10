@@ -1,0 +1,109 @@
+a{
+	outline:0 !important;
+	color: var(--color-rosa);
+}
+.navbar-light {
+	background-color:  var(--color-rosa);	font-size:13px;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#CDACCD;	
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 5px 17px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: var(--color-rosado);
+}
+.navbar-light .navbar-nav .active .nav-link{
+	color:var(--color-rosado);
+}
+.navbar-light .navbar-nav .active .nav-link:hover{
+	background-color:transparent;
+	color:var(--color-rosado);
+}
+
+
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color: var(--color-rosa);
+	border:0;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;	
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: var(--color-rosa);;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: transparent;
+	border:1px solid #000;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: var(--color-rosa);;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color: var(--color-rosa);		
+	height: auto;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#4676fa;
+}
+.navbar-light .navbar-brand img{
+	
+}
+
+
+.navbar-toggler i{
+	color: #fff;
+	font-size: 20px;
+}
+
+.carousel-item{
+	height: 500px;
+}
+.carousel-caption{
+	margin-right: 35%;
+	text-align: justify;
+	display: grid !important;
+	align-content: center;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
